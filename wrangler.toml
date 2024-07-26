@@ -3,6 +3,7 @@ compatibility_date = "2024-07-26"
 account_id = "43b514ec4fdafbb337b14a58b819f370"
 zone_id = "63200243584ad543b5d48f72b89b7413"
 workers_dev = true
+pages_build_output_dir = "./dist"
 kv_namespaces = [
     { binding = "USERS", id = "43aa9cedd4324d329c86de82aab46531", preview_id = "ba64684b6f3c44778748d3e3010a81dd" },
     { binding = "NAMES", id = "c71f8fb1f5d24aaeb5ff274f55f11820", preview_id = "f4e19fdf2b2c43d4869071de5e1c59f8" },
