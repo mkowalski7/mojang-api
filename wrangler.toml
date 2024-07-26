@@ -1,16 +1,13 @@
 name = "mojang_api_v2"
-compatibility_date = "2017-01-01"
-account_id = "301982b3799377b8f6c0fbeeed3ee65f"
-zone_id = "1233d7f70968e8751cfd90318ae4c54c"
-routes = [
-    "api.ashcon.app/mojang/v2*"
-]
-workers_dev = false
+compatibility_date = "2024-07-26"
+account_id = "43b514ec4fdafbb337b14a58b819f370"
+zone_id = "63200243584ad543b5d48f72b89b7413"
+workers_dev = true
 kv_namespaces = [
-    { binding = "USERS", id = "ba64684b6f3c44778748d3e3010a81dd", preview_id = "ba64684b6f3c44778748d3e3010a81dd" },
-    { binding = "NAMES", id = "f4e19fdf2b2c43d4869071de5e1c59f8", preview_id = "f4e19fdf2b2c43d4869071de5e1c59f8" },
-    { binding = "BIRTHDAYS", id = "297276ad8bd3474b8344558da7f8e5f0", preview_id = "297276ad8bd3474b8344558da7f8e5f0" },
-    { binding = "AVATARS", id = "360dd7a808454c228457118f18ee4a88", preview_id = "360dd7a808454c228457118f18ee4a88" }
+    { binding = "USERS", id = "43aa9cedd4324d329c86de82aab46531", preview_id = "ba64684b6f3c44778748d3e3010a81dd" },
+    { binding = "NAMES", id = "c71f8fb1f5d24aaeb5ff274f55f11820", preview_id = "f4e19fdf2b2c43d4869071de5e1c59f8" },
+    { binding = "BIRTHDAYS", id = "0904c51ca78e427dac367690936bb790", preview_id = "297276ad8bd3474b8344558da7f8e5f0" },
+    { binding = "AVATARS", id = "ce06f1ac05504356af2fa5f9cf1e40e1", preview_id = "360dd7a808454c228457118f18ee4a88" }
 ]
 main = "dist/worker.js"
 [build]
