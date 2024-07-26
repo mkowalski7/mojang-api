@@ -1,8 +1,4 @@
 name = "mojang_api_v2"
-compatibility_date = "2024-07-26"
-account_id = "43b514ec4fdafbb337b14a58b819f370"
-zone_id = "63200243584ad543b5d48f72b89b7413"
-workers_dev = true
 pages_build_output_dir = "./dist"
 kv_namespaces = [
     { binding = "USERS", id = "43aa9cedd4324d329c86de82aab46531", preview_id = "ba64684b6f3c44778748d3e3010a81dd" },
@@ -10,6 +6,3 @@ kv_namespaces = [
     { binding = "BIRTHDAYS", id = "0904c51ca78e427dac367690936bb790", preview_id = "297276ad8bd3474b8344558da7f8e5f0" },
     { binding = "AVATARS", id = "ce06f1ac05504356af2fa5f9cf1e40e1", preview_id = "360dd7a808454c228457118f18ee4a88" }
 ]
-main = "dist/worker.js"
-[build]
-command = "npm run build"
